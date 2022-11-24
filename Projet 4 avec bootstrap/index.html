@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Mario Kart Bootstrap</title>
+    <meta name="Site Mario kart 8" content="Ce site permet d'écrire le jeu à un joueur. Ce site montre la desccription du jeu, les règles, et sa bande annonce. Ainsi que quelque image du jeu." />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" />
+    <script src="script.js"></script>
+	</head>
+	<body>
+		<nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
+			<div class="container-fluid">
+				<div class="container">
+            
+              <img src="../Projet 4 avec bootstrap/img/logo-mk8.png" alt="Bootstrap" width="150" height="60">
+            
+         </div>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item pe-4">
+							<a class="nav-link active" href="#intro">INTRODUCTION</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link active" href="#description">DESCRIPTION</a>
+						</li>						
+                        <li class="nav-item pe-4">
+							<a class="nav-link active" href="#regle" >REGLE</a>
+						</li>
+                        <li class="nav-item pe-4">
+							<a class="nav-link active" href="#image">IMAGE</a>
+						</li>
+                        <li class="nav-item pe-4">
+							<a class="nav-link active" href="#video">BANDE ANNONCE</a>
+						</li>
+            <li class="nav-item pe-4">
+              <button type="button" class="btn btn-order rounded-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Contactez nous ici</button>
+            </li>
+            <li class="nav-item pe-4">
+							<a class="btn btn-order rounded-0" href="https://mariokart8.nintendo.com/fr/" target="_BLANK">Site officiel</a>
+						</li>
+					</ul>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+        <section class="banner d-flex align-items-center pt-5">
+            <div class="container my-5 py-5">
+                <div class="row">
+                   
+                   <div class="col-md-6">
+                    <h1 class="text-capitalize py-3 redressed banner-desc"></h1>
+                    <img class="col d-sm-none d-md-block d-none" src="../Projet 4 avec bootstrap/img/logo-mk8.png" alt="Logo du site ">
+                    
+                   </div> 
+                </div>
+            </div>
+
+        </section>
+
+        <section class="card my-5 border-0 rounded-0">
+            <div class="container">
+                    <div class="card my-5 border-0 rounded-0">
+                        <div class="row">
+                          <div class="col-md-5">
+                            <img src="../Projet 4 avec bootstrap/img/Mario-Kart-8-Deluxe---Nintendo-Switch.webp" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-6">
+                            <div id="intro" class="section scrollspy">
+                                <div class="card-body">
+                                <h3 class="card-title text-danger">INTRODUCTION</h3>
+                                <p class="card-text">Mario Kart est une série de jeux vidéo de course et de combat motorisé produite par Nintendo, adaptée de la série de jeux de plates-formes Super Mario. Débutée en 1992 par Super Mario Kart sur Super Nintendo, la série continue plus de vingt-cinq ans après avec Mario Kart 8 Deluxe sorti le 28 avril 2017 sur Nintendo Switch. Elle compte ainsi un total de huit opus sortis sur les principales consoles Nintendo, et trois titres « hors-série » développés sur borne d'arcade.</p>
+                                
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card my-5 border-0 rounded-0">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div id="description" class="section scrollspy">
+                                <div class="card-body">
+                                    <h3 class="card-title text-danger">DESCRIPTION</h3>
+                                    <p class="card-text"> Mario Kart 8 est jouable en solo ou en multijoueur, et permet d'opposer dans ce dernier mode jusqu'à douze joueurs en ligne. Il propose les modes de jeu Grand Prix, Contre-la-montre, Course VS et Bataille de ballons. Le mode Grand Prix est le mode de jeu de course principal.</p>                               
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+
+                            <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="../Projet 4 avec bootstrap/img/mario_kart_8_deluxe-0-4emqyf0s7b.jpg" class="img-fluid rounded-start" class="d-block w-100" alt="Image qui est lié à la description">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="../Projet 4 avec bootstrap/img/maxresdefault.jpg" class="d-block w-100" alt="Image qui est lié à la description">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="../Projet 4 avec bootstrap/img/Nintendo-giochi-venduti-Super-Mario-Odyssey-e-Mario-Kart-8-Deluxe.jpg" class="d-block w-100" alt="Image qui est lié à la description">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>                            
+                        </div>                    
+                      </div>
+                      <div class="card my-5 border-0 rounded-0">
+                        <div class="row">                                                  
+                          <div class="col-md-5">
+                            <img src="../Projet 4 avec bootstrap/img/mario-kart-8-deluxe-590324a727c33.jpg" class="img-fluid rounded-start" alt="Image qui est lié au règle du jeu">
+                          </div>
+                          <div class="col-md-6">
+                            <div id="regle" class="section scrollspy">
+                                <div class="card-body">
+                                    <h3 class="card-title text-danger">REGLE DU JEUX</h3>
+                                    <p class="card-text">L'objectif principal de Mario Kart est simple : le joueur doit parcourir le plus rapidement possible des circuits, un certain nombre de fois, dans l'optique de franchir la ligne d'arrivée en premier. Les adversaires sont contrôlés soit par l'ordinateur, soit par d'autres joueurs. Pour se faciliter la tâche, le joueur a la possibilité d'utiliser de nombreux objets. Ceux-ci s'obtiennent en atteignant avec son véhicule des cubes dotés d'un « ? » nommés Boîtes à Objets. Les objets peuvent être offensifs, défensifs ou encore stratégiques, permettant au joueur de bénéficier d'une accélération supplémentaire, ou encore d'enjamber un obstacle pour gagner du temps au tour.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="section cc-menu py-5 modern-love">
+            <div class="container">
+                <div class="row">
+                    <div id="image" class="section scrollspy">
+                        <h3 class="text-center text-light modern-love fs-1">IMAGE</h3>
+                    </div>
+                    <div class="card bg-transparent text-center border-0 mb-4">
+                        
+                        <div class="card-body text-light">
+                          
+                          <p class="card-text">Voici quelque images du jeux Mario kart 8 deluxe.</p>                          
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../Projet 4 avec bootstrap/img/26.jpg" width="350" height="350" class="card-img-top" alt="image de gameplay 1">
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../Projet 4 avec bootstrap/img/ME3050443735_2.jpg" width="350" height="350" class="card-img-top" alt="image de gameplay 2">
+                        
+                      </div>
+                    </div>
+                    <div class="col d-sm-none d-md-block d-none">
+                      <div class="card">
+                        <img src="../Projet 4 avec bootstrap/img/1402-mario-kart-arrive-sur-smartphone.jpg " width="350" height="350" class="card-img-top" alt="image de gameplay 3">
+                        
+                      </div>
+                    </div>
+                    <div class="col d-sm-none d-md-block d-none">
+                      <div class="card">
+                        <img src="../Projet 4 avec bootstrap/img/879839.jpg" width="350" height="350" class="card-img-top" alt="image de gameplay 4">
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>     
+        </section>
+        
+        <section class="cc-carousel modern-love bg-dark text-light text-center py-5">
+            <div class="container">
+                <div class="row">
+                    <div id="video" class="section scrollspy">    
+                    <h1 class="text-uppercas mb-5">Bande annonce du jeu</h1>   
+                    </div>
+                </div>   
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IvdFnG_MJyQ" title="YouTube video player" allowfullscreen></iframe>
+                  </div>
+            </div>
+
+        </section>
+
+        <section class=" bgt-violet modif text-light py-5">
+            <div id="inscription" class="section scrollspy">
+                <h2 class="modern-love text-center mb-4">CONTACTEZ NOTRE EQUIPE</h2>
+            </div>
+            <form>
+                <form>
+                  
+                  <button id="modele" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Remplicez le formulaire de contact.
+                  </button>
+                  
+                  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark" id="exampleModalLabel">Contact</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="row g-3">
+                            <div class="col-md-12">
+                              <label for="validationDefault01" class="form-label text-dark">Nom</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="validationDefault01"
+                                placeholder="Entrer votre nom"
+                                required
+                              />
+                            </div>
+                            <div class="col-md-12">
+                              <label for="validationDefault02" class="form-label text-dark">Prénom</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="validationDefault02"
+                                placeholder="Entrer votre prénom"
+                                required
+                              />
+                            </div>
+                            <div class="col-md-12">
+                              <label for="validationDefaultUsername" class="form-label text-dark">Mail</label>
+                              
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="validationDefaultUsername"
+                                  aria-describedby="inputGroupPrepend2"
+                                  placeholder="Entrer votre mail"
+                                  required
+                                />
+                              </div>
+                            
+                          
+                            <div class="col-md-12">
+                              <div class="form-group text-dark">
+                                <label for="validationDefaultMessage" class="form-label text-dark">Message</label>
+                                <textarea
+                                  class="form-control"
+                                  id="validationDefaultMessage"
+                                  rows="3"
+                                  placeholder="Votre message"
+                                  required
+                                ></textarea>
+                              </div>
+                            </div>
+                          
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" type="submit">Envoyez</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            </div>
+                          </form>
+                                  
+                          ...
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  
+                                
+                  
+                    
+                </form>
+            </form>
+        </section>
+ 
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
